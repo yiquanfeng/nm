@@ -99,8 +99,11 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    // Servo_angle(90,1);
-    // Arm_Move(0,79);
+    //Servo_angle(90,1);
+    //  Servo_angle(120,2);
+    // Servo_angle(90,3);
+    // Servo_angle(90,4);
+     Arm_Move(20,79);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

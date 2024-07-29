@@ -25,6 +25,20 @@ void Arm_Move(double x,double y)
     double dis_line = sqrt(dealt_x * dealt_x + dealt_y * dealt_y);
     double dis_hig = HEIGHT;
     angel_base = 90.0 + Rad_To_Angle(atan(dealt_x / dealt_y));
+    // Servo_angle(angel_base,1);
+    double m = atan((HEIGHT - BASE) / dis_line);//直角三角形的顶角
+    double hypo = sqrt((HEIGHT - BASE) * (HEIGHT - BASE) + dis_line * dis_line);//可优化
+    // double n = acos((ARM_1 * ARM_1 + hypo * hypo - ARM_2 * ARM_2) / 2 * ARM_1 * hypo);//余弦定理
+    double temp = (pow(ARM_1,2) + pow(hypo,2) - pow(ARM_2,1)) / (2 * ARM_1 * hypo);
+    double n = acos(temp);
+    angle_1 = 180 - Rad_To_Angle(m) - Rad_To_Angle(n);
+    angle_2 = 180 - Rad_To_Angle(acos((ARM_1 * ARM_1 + ARM_2 * ARM_2 - hypo * hypo) / (2 * ARM_1 * ARM_2)));
     Servo_angle(angel_base,1);
-
+    Servo_angle(angle_1,2);
+    Servo_angle(angle_2,3);
 }
+
+// void Arm_Exe()
+// {
+//     switch ()
+// }
