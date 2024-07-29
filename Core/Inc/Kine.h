@@ -9,8 +9,11 @@
 #define ARM_2 141
 #define ARM_3 0
 #define BASE 47
+#define HEIGHT 0 //固定高度
 
 #include <stdlib.h>
+// #include "servo.h"
+#include <math.h>
 
 typedef struct node
 {
@@ -18,17 +21,18 @@ typedef struct node
     unsigned int y;
 }node;
 
-node arm_all = {67,0};
-node chess_1 = {35,79};
-node chess_2 = {67,79};
-node chess_3 = {0,0};
-node chess_4 = {0,0};
-node chess_5 = {67,47};
-node chess_6 = {0,0};
-node chess_7 = {0,0};
-node chess_8 = {0,0};
-node chess_9 = {0,0};
+//node arm_all;
+// node chess_1;
+// node chess_2;
+// node chess_3;
+// node chess_4;
+// node chess_5;
+// node chess_6;
+// node chess_7;
+// node chess_8;
+// node chess_9;
 
-void 
+void Arm_Move(double x,double y);
+
 
 #endif //KINE_H

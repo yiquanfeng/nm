@@ -12,11 +12,12 @@ void Servo_Init()
     HAL_TIM_PWM_Start(&htim1,TIM_CHANNEL_1);
     HAL_TIM_PWM_Start(&htim1,TIM_CHANNEL_2);
     HAL_TIM_PWM_Start(&htim1,TIM_CHANNEL_3);
+    HAL_TIM_PWM_Start(&htim1,TIM_CHANNEL_4);
 }
 
-void Servo_angle(int angle,int id)
+void Servo_angle(double angle,int id)
 {
-    int compare = 10 + (angle / PI * 40);
+    int compare = 10 + (angle / 180.0 * 40);
     switch (id)
     {
         case 1:
@@ -27,5 +28,16 @@ void Servo_angle(int angle,int id)
             break;
         case 3:
             __HAL_TIM_SetCompare(&htim1,TIM_CHANNEL_3,compare);
+            break;
+        case 4:
+            __HAL_TIM_SetCompare(&htim1,TIM_CHANNEL_4,compare);
+            break;
+        default:
+            break;
     }
+}
+
+double Rad_To_Angle(double rad)
+{
+    return rad / PI * 180.0;
 }

@@ -3,6 +3,33 @@
 
 CMakeFiles/ele_com.elf.dir/Core/Src/Kine.c.obj: D:/stm32-learning/ele_com/Core/Src/Kine.c \
   D:/stm32-learning/ele_com/Core/Inc/Kine.h \
+  D:/stm32-learning/ele_com/Core/Inc/main.h \
+  D:/stm32-learning/ele_com/Core/Inc/servo.h \
+  D:/stm32-learning/ele_com/Core/Inc/stm32f1xx_hal_conf.h \
+  D:/stm32-learning/ele_com/Core/Inc/tim.h \
+  D:/stm32-learning/ele_com/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h \
+  D:/stm32-learning/ele_com/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h \
+  D:/stm32-learning/ele_com/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h \
+  D:/stm32-learning/ele_com/Drivers/CMSIS/Include/cmsis_compiler.h \
+  D:/stm32-learning/ele_com/Drivers/CMSIS/Include/cmsis_gcc.h \
+  D:/stm32-learning/ele_com/Drivers/CMSIS/Include/cmsis_version.h \
+  D:/stm32-learning/ele_com/Drivers/CMSIS/Include/core_cm3.h \
+  D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h \
+  D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h \
+  D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h \
+  D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h \
+  D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h \
+  D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h \
+  D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h \
+  D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
+  D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h \
+  D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h \
+  D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h \
+  D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h \
+  D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h \
+  D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h \
+  D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h \
   E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/_ansi.h \
   E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/_newlib_version.h \
   E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/alloca.h \
@@ -10,15 +37,20 @@ CMakeFiles/ele_com.elf.dir/Core/Src/Kine.c.obj: D:/stm32-learning/ele_com/Core/S
   E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/machine/_types.h \
   E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/machine/ieeefp.h \
   E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/machine/stdlib.h \
+  E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/math.h \
   E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/newlib.h \
+  E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/stdint.h \
   E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/stdlib.h \
+  E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/sys/_intsup.h \
+  E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/sys/_stdint.h \
   E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/sys/_types.h \
   E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/sys/cdefs.h \
   E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/sys/config.h \
   E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/sys/features.h \
   E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/sys/lock.h \
   E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/sys/reent.h \
-  E:/Arm_GNU_ToolChain/13.2\ Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h
+  E:/Arm_GNU_ToolChain/13.2\ Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+  E:/Arm_GNU_ToolChain/13.2\ Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h
 
 CMakeFiles/ele_com.elf.dir/Core/Src/gpio.c.obj: D:/stm32-learning/ele_com/Core/Src/gpio.c \
   D:/stm32-learning/ele_com/Core/Inc/gpio.h \
@@ -57,8 +89,10 @@ CMakeFiles/ele_com.elf.dir/Core/Src/gpio.c.obj: D:/stm32-learning/ele_com/Core/S
   E:/Arm_GNU_ToolChain/13.2\ Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h
 
 CMakeFiles/ele_com.elf.dir/Core/Src/main.c.obj: D:/stm32-learning/ele_com/Core/Src/main.c \
+  D:/stm32-learning/ele_com/Core/Inc/Kine.h \
   D:/stm32-learning/ele_com/Core/Inc/gpio.h \
   D:/stm32-learning/ele_com/Core/Inc/main.h \
+  D:/stm32-learning/ele_com/Core/Inc/servo.h \
   D:/stm32-learning/ele_com/Core/Inc/stm32f1xx_hal_conf.h \
   D:/stm32-learning/ele_com/Core/Inc/tim.h \
   D:/stm32-learning/ele_com/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h \
@@ -84,12 +118,26 @@ CMakeFiles/ele_com.elf.dir/Core/Src/main.c.obj: D:/stm32-learning/ele_com/Core/S
   D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h \
   D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h \
   D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h \
+  D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_rcc.h \
+  E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/_ansi.h \
   E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/_newlib_version.h \
+  E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/alloca.h \
   E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/machine/_default_types.h \
+  E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/machine/_types.h \
+  E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/machine/ieeefp.h \
+  E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/machine/stdlib.h \
+  E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/math.h \
+  E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/newlib.h \
   E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/stdint.h \
+  E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/stdlib.h \
   E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/sys/_intsup.h \
   E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/sys/_stdint.h \
+  E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/sys/_types.h \
+  E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/sys/cdefs.h \
+  E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/sys/config.h \
   E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/sys/features.h \
+  E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/sys/lock.h \
+  E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/sys/reent.h \
   E:/Arm_GNU_ToolChain/13.2\ Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   E:/Arm_GNU_ToolChain/13.2\ Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h
 
@@ -782,89 +830,25 @@ CMakeFiles/ele_com.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex
   E:/Arm_GNU_ToolChain/13.2\ Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h
 
 
-E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/errno.h:
-
-D:/stm32-learning/ele_com/Core/Src/main.c:
-
-E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/machine/_default_types.h:
-
 D:/stm32-learning/ele_com/Core/Src/Kine.c:
 
 D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h:
 
 D:/stm32-learning/ele_com/Core/Inc/Kine.h:
 
-E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/machine/ieeefp.h:
-
-D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c:
-
-E:/Arm_GNU_ToolChain/13.2\ Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h:
-
-E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/alloca.h:
-
-D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h:
-
-D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h:
-
-E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/_ansi.h:
-
-E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/_newlib_version.h:
-
-E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/machine/_time.h:
-
-E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/machine/_types.h:
-
-E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/sys/signal.h:
-
-D:/stm32-learning/ele_com/Drivers/CMSIS/Include/cmsis_version.h:
-
-E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/machine/stdlib.h:
-
-D:/stm32-learning/ele_com/Core/Src/syscalls.c:
-
-E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/newlib.h:
-
-E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/sys/config.h:
-
-E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/sys/timespec.h:
-
-E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/stdlib.h:
-
-E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/sys/_types.h:
-
 D:/stm32-learning/ele_com/Core/Src/stm32f1xx_it.c:
+
+E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/sys/cdefs.h:
 
 D:/stm32-learning/ele_com/Core/Inc/main.h:
 
 D:/stm32-learning/ele_com/Drivers/CMSIS/Include/cmsis_gcc.h:
 
-E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/sys/cdefs.h:
+D:/stm32-learning/ele_com/Drivers/CMSIS/Include/core_cm3.h:
 
-D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h:
+D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c:
 
-D:/stm32-learning/ele_com/Drivers/CMSIS/Include/cmsis_compiler.h:
-
-E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/sys/features.h:
-
-E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/sys/lock.h:
-
-D:/stm32-learning/ele_com/Core/Src/stm32f1xx_hal_msp.c:
-
-D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:
-
-D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:
-
-E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/sys/reent.h:
-
-E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/sys/_intsup.h:
-
-E:/Arm_GNU_ToolChain/13.2\ Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h:
-
-D:/stm32-learning/ele_com/Core/Src/gpio.c:
-
-D:/stm32-learning/ele_com/Core/Inc/gpio.h:
-
-D:/stm32-learning/ele_com/Core/Inc/stm32f1xx_hal_conf.h:
+D:/stm32-learning/ele_com/Core/Inc/servo.h:
 
 D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c:
 
@@ -872,23 +856,51 @@ D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_e
 
 D:/stm32-learning/ele_com/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h:
 
+D:/stm32-learning/ele_com/Core/Inc/stm32f1xx_hal_conf.h:
+
 D:/stm32-learning/ele_com/Core/Inc/tim.h:
 
 D:/stm32-learning/ele_com/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:
 
 D:/stm32-learning/ele_com/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h:
 
-D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c:
+E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/sys/features.h:
 
-D:/stm32-learning/ele_com/Core/Inc/servo.h:
+D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h:
 
-D:/stm32-learning/ele_com/Drivers/CMSIS/Include/core_cm3.h:
+D:/stm32-learning/ele_com/Drivers/CMSIS/Include/cmsis_compiler.h:
+
+E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/machine/stdlib.h:
+
+E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/sys/signal.h:
+
+D:/stm32-learning/ele_com/Drivers/CMSIS/Include/cmsis_version.h:
 
 D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h:
 
 D:/stm32-learning/ele_com/Core/Inc/stm32f1xx_it.h:
 
+E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/math.h:
+
 D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:
+
+D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c:
+
+E:/Arm_GNU_ToolChain/13.2\ Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h:
+
+D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h:
+
+E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/alloca.h:
+
+D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h:
+
+D:/stm32-learning/ele_com/Core/Src/stm32f1xx_hal_msp.c:
+
+E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/sys/reent.h:
+
+D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:
+
+D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:
 
 D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h:
 
@@ -906,9 +918,49 @@ D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:
 
 D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:
 
+E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/_ansi.h:
+
+E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/_newlib_version.h:
+
+E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/errno.h:
+
+D:/stm32-learning/ele_com/Core/Src/main.c:
+
+E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/machine/_default_types.h:
+
+E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/machine/_time.h:
+
+E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/machine/_types.h:
+
+E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/machine/ieeefp.h:
+
+D:/stm32-learning/ele_com/Core/Src/syscalls.c:
+
+E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/newlib.h:
+
 E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/machine/_endian.h:
 
 E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/stdint.h:
+
+E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/sys/config.h:
+
+E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/sys/timespec.h:
+
+E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/stdlib.h:
+
+E:/Arm_GNU_ToolChain/13.2\ Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h:
+
+E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/sys/_intsup.h:
+
+E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/sys/_types.h:
+
+E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/sys/lock.h:
+
+D:/stm32-learning/ele_com/Core/Src/gpio.c:
+
+D:/stm32-learning/ele_com/Core/Inc/gpio.h:
+
+D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_rcc.h:
 
 D:/stm32-learning/ele_com/Core/Src/servo.c:
 

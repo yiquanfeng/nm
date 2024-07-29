@@ -10,6 +10,7 @@
 #define PI 3.1416
 
 void Servo_Init();
-void Servo_angle(int angle,int id);
+void Servo_angle(double angle,int id);
+double Rad_To_Angle(double rad);
 
 #endif //SERVO_H

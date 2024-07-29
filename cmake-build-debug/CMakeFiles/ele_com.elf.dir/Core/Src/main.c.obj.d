@@ -35,4 +35,22 @@ CMakeFiles/ele_com.elf.dir/Core/Src/main.c.obj: \
  D:\stm32-learning\ele_com\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_tim_ex.h \
  D:\stm32-learning\ele_com\Core\Inc/tim.h \
  D:\stm32-learning\ele_com\Core\Inc/main.h \
- D:\stm32-learning\ele_com\Core\Inc/gpio.h
+ D:\stm32-learning\ele_com\Core\Inc/gpio.h \
+ D:\stm32-learning\ele_com\Core\Inc/Kine.h \
+ E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/stdlib.h \
+ E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/machine/ieeefp.h \
+ E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/_ansi.h \
+ E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/newlib.h \
+ E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/sys/config.h \
+ E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/sys/reent.h \
+ E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/_ansi.h \
+ E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/sys/cdefs.h \
+ E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/sys/_types.h \
+ E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/machine/_types.h \
+ E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/sys/lock.h \
+ E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/machine/stdlib.h \
+ E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/alloca.h \
+ E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/math.h \
+ D:\stm32-learning\ele_com\Core\Inc/servo.h \
+ D:\stm32-learning\ele_com\Core\Inc/tim.h \
+ D:\stm32-learning\ele_com\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_ll_rcc.h
