@@ -19,6 +19,7 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "tim.h"
+#include "usart.h"
 #include "gpio.h"
 
 /* Private includes ----------------------------------------------------------*/
@@ -58,7 +59,7 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
+uint8_t data[5] = {0};
 /* USER CODE END 0 */
 
 /**
@@ -91,19 +92,45 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_TIM1_Init();
+  MX_TIM2_Init();
+  MX_TIM3_Init();
+  MX_TIM4_Init();
+  MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
   Servo_Init();
+  HAL_UART_Transmit(&huart2,"enter start to start\n",21,0xff);
+  HAL_UART_Receive_IT(&huart2,data,5);
+  unsigned char data[5] = {0};
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    //Servo_angle(90,1);
-    //  Servo_angle(120,2);
-    // Servo_angle(90,3);
-    // Servo_angle(90,4);
-     Arm_Move(20,79);
+    // HAL_UART_Receive(&huart2,data,5,0xff);
+    // HAL_Delay(20);
+    // HAL_UART_Transmit(&huart2,data,1,0xff);
+    // HAL_Delay(20);
+    switch (data[0])
+    {
+    case '1':
+      Arm_Exe_1();
+
+      break;
+    case '2':
+      Arm_Exe_2(data);
+      break;
+    case '3':
+      Arm_Exe_3();
+      break;
+    default:
+      HAL_GPIO_TogglePin(LED_GPIO_Port,LED_Pin);
+      HAL_Delay(200);
+      break;
+    }
+
+    //Arm_Exe();
+    //Arm_Init();
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -151,7 +178,14 @@ void SystemClock_Config(void)
 }
 
 /* USER CODE BEGIN 4 */
-
+void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
+{
+  if(huart == &huart2)
+  {
+    HAL_UART_Receive(&huart2,data,5,0xff);
+    HAL_UART_Transmit(&huart2,"received\n",9,0xff);
+  }
+}
 /* USER CODE END 4 */
 
 /**

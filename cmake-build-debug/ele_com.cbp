@@ -117,6 +117,9 @@
 		<Unit filename="D:/stm32-learning/ele_com/Core/Inc/tim.h">
 			<Option target="ele_com.elf"/>
 		</Unit>
+		<Unit filename="D:/stm32-learning/ele_com/Core/Inc/usart.h">
+			<Option target="ele_com.elf"/>
+		</Unit>
 		<Unit filename="D:/stm32-learning/ele_com/Core/Src/Kine.c">
 			<Option target="ele_com.elf"/>
 		</Unit>
@@ -145,6 +148,9 @@
 			<Option target="ele_com.elf"/>
 		</Unit>
 		<Unit filename="D:/stm32-learning/ele_com/Core/Src/tim.c">
+			<Option target="ele_com.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32-learning/ele_com/Core/Src/usart.c">
 			<Option target="ele_com.elf"/>
 		</Unit>
 		<Unit filename="D:/stm32-learning/ele_com/Core/Startup/startup_stm32f103c8tx.s">
@@ -276,6 +282,9 @@
 		<Unit filename="D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h">
 			<Option target="ele_com.elf"/>
 		</Unit>
+		<Unit filename="D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h">
+			<Option target="ele_com.elf"/>
+		</Unit>
 		<Unit filename="D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h">
 			<Option target="ele_com.elf"/>
 		</Unit>
@@ -301,6 +310,9 @@
 			<Option target="ele_com.elf"/>
 		</Unit>
 		<Unit filename="D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h">
+			<Option target="ele_com.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usart.h">
 			<Option target="ele_com.elf"/>
 		</Unit>
 		<Unit filename="D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_utils.h">
@@ -346,6 +358,9 @@
 			<Option target="ele_com.elf"/>
 		</Unit>
 		<Unit filename="D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c">
+			<Option target="ele_com.elf"/>
+		</Unit>
+		<Unit filename="D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c">
 			<Option target="ele_com.elf"/>
 		</Unit>
 		<Unit filename="D:/stm32-learning/ele_com/STM32F103C8TX_FLASH.ld">

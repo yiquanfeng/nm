@@ -18,6 +18,10 @@ CMakeFiles/ele_com.elf.dir/Core/Src/Kine.c.obj: \
  E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/sys/lock.h \
  E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/machine/stdlib.h \
  E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/alloca.h \
+ E:/Arm_GNU_ToolChain/13.2\ Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+ E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/stdint.h \
+ E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/sys/_intsup.h \
+ E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/sys/_stdint.h \
  E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/math.h \
  D:\stm32-learning\ele_com\Core\Inc/servo.h \
  D:\stm32-learning\ele_com\Core\Inc/tim.h \
@@ -29,10 +33,6 @@ CMakeFiles/ele_com.elf.dir/Core/Src/Kine.c.obj: \
  D:\stm32-learning\ele_com\Drivers\CMSIS\Device\ST\STM32F1xx\Include/stm32f1xx.h \
  D:\stm32-learning\ele_com\Drivers\CMSIS\Device\ST\STM32F1xx\Include/stm32f103xb.h \
  D:\stm32-learning\ele_com\Drivers\CMSIS\Include/core_cm3.h \
- E:/Arm_GNU_ToolChain/13.2\ Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
- E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/stdint.h \
- E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/sys/_intsup.h \
- E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/sys/_stdint.h \
  D:\stm32-learning\ele_com\Drivers\CMSIS\Include/cmsis_version.h \
  D:\stm32-learning\ele_com\Drivers\CMSIS\Include/cmsis_compiler.h \
  D:\stm32-learning\ele_com\Drivers\CMSIS\Include/cmsis_gcc.h \
@@ -49,4 +49,6 @@ CMakeFiles/ele_com.elf.dir/Core/Src/Kine.c.obj: \
  D:\stm32-learning\ele_com\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_flash_ex.h \
  D:\stm32-learning\ele_com\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_pwr.h \
  D:\stm32-learning\ele_com\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_tim.h \
- D:\stm32-learning\ele_com\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_tim_ex.h
+ D:\stm32-learning\ele_com\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_tim_ex.h \
+ D:\stm32-learning\ele_com\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_uart.h \
+ D:\stm32-learning\ele_com\Core\Inc/usart.h

@@ -33,8 +33,10 @@ CMakeFiles/ele_com.elf.dir/Core/Src/main.c.obj: \
  D:\stm32-learning\ele_com\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_pwr.h \
  D:\stm32-learning\ele_com\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_tim.h \
  D:\stm32-learning\ele_com\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_tim_ex.h \
+ D:\stm32-learning\ele_com\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_uart.h \
  D:\stm32-learning\ele_com\Core\Inc/tim.h \
  D:\stm32-learning\ele_com\Core\Inc/main.h \
+ D:\stm32-learning\ele_com\Core\Inc/usart.h \
  D:\stm32-learning\ele_com\Core\Inc/gpio.h \
  D:\stm32-learning\ele_com\Core\Inc/Kine.h \
  E:/Arm_GNU_ToolChain/13.2\ Rel1/arm-none-eabi/include/stdlib.h \

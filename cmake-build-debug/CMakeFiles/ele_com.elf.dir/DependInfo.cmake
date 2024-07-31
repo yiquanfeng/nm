@@ -40,6 +40,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/stm32-learning/ele_com/Core/Src/sysmem.c" "CMakeFiles/ele_com.elf.dir/Core/Src/sysmem.c.obj" "gcc" "CMakeFiles/ele_com.elf.dir/Core/Src/sysmem.c.obj.d"
   "D:/stm32-learning/ele_com/Core/Src/system_stm32f1xx.c" "CMakeFiles/ele_com.elf.dir/Core/Src/system_stm32f1xx.c.obj" "gcc" "CMakeFiles/ele_com.elf.dir/Core/Src/system_stm32f1xx.c.obj.d"
   "D:/stm32-learning/ele_com/Core/Src/tim.c" "CMakeFiles/ele_com.elf.dir/Core/Src/tim.c.obj" "gcc" "CMakeFiles/ele_com.elf.dir/Core/Src/tim.c.obj.d"
+  "D:/stm32-learning/ele_com/Core/Src/usart.c" "CMakeFiles/ele_com.elf.dir/Core/Src/usart.c.obj" "gcc" "CMakeFiles/ele_com.elf.dir/Core/Src/usart.c.obj.d"
   "D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c" "CMakeFiles/ele_com.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj" "gcc" "CMakeFiles/ele_com.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj.d"
   "D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c" "CMakeFiles/ele_com.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj" "gcc" "CMakeFiles/ele_com.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj.d"
   "D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c" "CMakeFiles/ele_com.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj" "gcc" "CMakeFiles/ele_com.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj.d"
@@ -53,6 +54,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c" "CMakeFiles/ele_com.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj" "gcc" "CMakeFiles/ele_com.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj.d"
   "D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c" "CMakeFiles/ele_com.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj" "gcc" "CMakeFiles/ele_com.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj.d"
   "D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c" "CMakeFiles/ele_com.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj" "gcc" "CMakeFiles/ele_com.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj.d"
+  "D:/stm32-learning/ele_com/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c" "CMakeFiles/ele_com.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj" "gcc" "CMakeFiles/ele_com.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

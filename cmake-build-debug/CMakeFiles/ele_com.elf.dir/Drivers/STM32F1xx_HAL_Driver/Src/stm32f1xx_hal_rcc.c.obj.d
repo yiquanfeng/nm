@@ -31,4 +31,5 @@ CMakeFiles/ele_com.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.
  D:\stm32-learning\ele_com\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_flash_ex.h \
  D:\stm32-learning\ele_com\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_pwr.h \
  D:\stm32-learning\ele_com\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_tim.h \
- D:\stm32-learning\ele_com\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_tim_ex.h
+ D:\stm32-learning\ele_com\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_tim_ex.h \
+ D:\stm32-learning\ele_com\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_uart.h
