@@ -59,7 +59,7 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-uint8_t data[5] = {0};
+unsigned char data[5] = {0};
 /* USER CODE END 0 */
 
 /**
@@ -100,34 +100,41 @@ int main(void)
   Servo_Init();
   HAL_UART_Transmit(&huart2,"enter start to start\n",21,0xff);
   HAL_UART_Receive_IT(&huart2,data,5);
-  unsigned char data[5] = {0};
+  // unsigned char data[5] = {0};
+  // HAL_TIM_PWM_Start(&htim1,TIM_CHANNEL_2);
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+    //Arm_Init();
+    Arm_Move_fake(9);
+    // __HAL_TIM_SetCompare(&htim1,TIM_CHANNEL_2,99);
     // HAL_UART_Receive(&huart2,data,5,0xff);
     // HAL_Delay(20);
-    // HAL_UART_Transmit(&huart2,data,1,0xff);
-    // HAL_Delay(20);
-    switch (data[0])
-    {
-    case '1':
-      Arm_Exe_1();
-
-      break;
-    case '2':
-      Arm_Exe_2(data);
-      break;
-    case '3':
-      Arm_Exe_3();
-      break;
-    default:
-      HAL_GPIO_TogglePin(LED_GPIO_Port,LED_Pin);
-      HAL_Delay(200);
-      break;
-    }
+    // HAL_UART_Transmit(&huart2,data,5,0xff);
+    // HAL_Delay(200);
+    //Arm_Init();
+     //Arm_Test();
+    // switch (data[0])
+    // {
+    // case '1':
+    //   Arm_Exe_1();
+    //   data[0] = 0;
+    //   break;
+    // case '2':
+    //   Arm_Exe_2(data);
+    //   data[0] = 0;
+    //   break;
+    // case '3':
+    //   Arm_Exe_3();
+    //   break;
+    // default:
+    //   HAL_GPIO_TogglePin(LED_GPIO_Port,LED_Pin);
+    //   HAL_Delay(200);
+    //   break;
+    // }
 
     //Arm_Exe();
     //Arm_Init();
@@ -183,7 +190,6 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
   if(huart == &huart2)
   {
     HAL_UART_Receive(&huart2,data,5,0xff);
-    HAL_UART_Transmit(&huart2,"received\n",9,0xff);
   }
 }
 /* USER CODE END 4 */

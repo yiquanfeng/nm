@@ -6,16 +6,17 @@
 #include "servo.h"
 #include "usart.h"
 
-node arm_all = {103.2,0};
-node chess_1 = {45+5,109+5};
-node chess_2 = {87-5,109};
-node chess_3 = {119-10,109+2};
-node chess_4 = {45+25,77+3};
-node chess_5 = {87,77};
-node chess_6 = {119-13,77};
-node chess_7 = {45+25,45+10};
-node chess_8 = {87+5,45+15};
-node chess_9 = {119-15,45+15};
+node arm_all = {103.2,0,90,100};
+node get_chess_1 ={45,120,90,100};
+node chess_1 = {80,130,80,40};
+node chess_2 = {87,130,80,37};
+node chess_3 = {100,130,80,40};
+node chess_4 = {75,130,105,45};
+node chess_5 = {90,115,100,100};
+node chess_6 = {100,120,100,45};
+node chess_7 = {75,97,120,45};
+node chess_8 = {87,100,113,45};
+node chess_9 = {105,108,113,45};
 
 uint8_t phase = 1;
 
@@ -25,14 +26,15 @@ void Arm_Init()
     Servo_angle(90,2);
     Servo_angle(90,3);
     Servo_angle(90,4);
+    HAL_GPIO_WritePin(MAG_GPIO_Port,MAG_Pin,RESET);
 }
 void Arm_Get(double x,double y)
 {
     Arm_Move(x,y);
-    HAL_GPIO_WritePin(MAG_GPIO_Port,MAG_Pin,SET);
-    HAL_Delay(1000);
+    HAL_GPIO_WritePin(MAG_GPIO_Port,MAG_Pin,RESET);
+    HAL_Delay(2000);
 }
-void Arm_Put(unsigned int No)
+void Arm_Put(unsigned char No)
 {
     switch (No)
     {
@@ -126,26 +128,101 @@ void Arm_Move(double x,double y)
     Servo_angle(angle_1,4);
 }
 
-void Arm_Exe_1()
+void Arm_Move_fake(int num)
 {
-    Arm_Get(10,77);
-    Arm_Put(5);
+    switch (num)
+    {
+    case 1:
+        Servo_angle(chess_1.angle_1,1);
+        Servo_angle(chess_1.angle_2,2);
+        Servo_angle(chess_1.angle_3,3);
+        Servo_angle(chess_1.angle_4,4);
+        break;
+    case 2:
+        Servo_angle(chess_2.angle_1,1);
+        Servo_angle(chess_2.angle_2,2);
+        Servo_angle(chess_2.angle_3,3);
+        Servo_angle(chess_2.angle_4,4);
+        break;
+    case 3:
+        Servo_angle(chess_3.angle_1,1);
+        Servo_angle(chess_3.angle_2,2);
+        Servo_angle(chess_3.angle_3,3);
+        Servo_angle(chess_3.angle_4,4);
+        break;
+    case 4:
+        Servo_angle(chess_4.angle_1,1);
+        Servo_angle(chess_4.angle_2,2);
+        Servo_angle(chess_4.angle_3,3);
+        Servo_angle(chess_4.angle_4,4);
+        break;
+    case 5:
+        Servo_angle(chess_5.angle_1,1);
+        Servo_angle(chess_5.angle_2,2);
+        Servo_angle(chess_5.angle_3,3);
+        Servo_angle(chess_5.angle_4,4);
+        break;
+    case 6:
+        Servo_angle(chess_6.angle_1,1);
+        Servo_angle(chess_6.angle_2,2);
+        Servo_angle(chess_6.angle_3,3);
+        Servo_angle(chess_6.angle_4,4);
+        break;
+    case 7:
+        Servo_angle(chess_7.angle_1,1);
+        Servo_angle(chess_7.angle_2,2);
+        Servo_angle(chess_7.angle_3,3);
+        Servo_angle(chess_7.angle_4,4);
+        break;
+    case 8:
+        Servo_angle(chess_8.angle_1,1);
+        Servo_angle(chess_8.angle_2,2);
+        Servo_angle(chess_8.angle_3,3);
+        Servo_angle(chess_8.angle_4,4);
+        break;
+    case 9:
+        Servo_angle(chess_9.angle_1,1);
+        Servo_angle(chess_9.angle_2,2);
+        Servo_angle(chess_9.angle_3,3);
+        Servo_angle(chess_9.angle_4,4);
+        break;
+    case 10:
+        Servo_angle(get_chess_1.angle_1,1);
+        Servo_angle(get_chess_1.angle_2,2);
+        Servo_angle(get_chess_1.angle_3,3);
+        Servo_angle(get_chess_1.angle_4,4);
+        break;
+    }
 }
 
-void Arm_Exe_2(uint8_t *data)
+void Arm_Exe_1()
 {
-    Arm_Get(0,0);
+    // Servo_angle()
+    // Arm_Get(10,90);
+    // Arm_Put(5);
+    // Servo_angle(90+30,3);
+    // Servo_angle()
+}
+
+void Arm_Exe_2(unsigned char *data)
+{
+    Arm_Get(10,100);
     Arm_Put(data[1]);
-    Arm_Get(0,0);
+    Arm_Get(10,77);
     Arm_Put(data[2]);//two black
 
-    Arm_Get(0,0);
+    Arm_Get(10,77);
     Arm_Put(data[3]);
-    Arm_Get(0,0);
+    Arm_Get(10,77);
     Arm_Put(data[4]);//two white
 }
 
 void Arm_Exe_3()
 {
     return;
+}
+
+void Arm_Test()
+{
+    Arm_Move(chess_5.x,chess_5.y);
 }
